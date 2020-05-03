@@ -13,7 +13,7 @@ jobs:
       with:
         server-name: livecoders.database.windows.net
         connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
-        dacpac-package: './Database.dacpac'
+        # dacpac-package: './Database.dacpac'
         # Path to SQL script file. *.sql or a folder to deploy
         sql-file: './SQLQuery2.sql'
         # In case DACPAC option is selected, additional SqlPackage.exe arguments that will be applied. When SQL query option is selected, additional sqlcmd.exe arguments will be applied.
