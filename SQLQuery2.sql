@@ -4,7 +4,7 @@ GO
 INSERT INTO [dbo].[Test1]
            ([Name])
      VALUES
-           ('Gregor')
+           ('Gregor Suttie')
 GO
 
 
