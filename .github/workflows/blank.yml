@@ -25,7 +25,7 @@ jobs:
           # The connection string, including authentication information, for the Azure SQL Server database.
           connection-string: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
           # Path to DACPAC file. *.dacpac or a folder to deploy
-          dacpac-package: './livecoders.dacpac'
+          dacpac-package: '*.dacpac'
           # Path to SQL script file. *.sql or a folder to deploy
           sql-file: './SQLQuery2.sql'
           # In case DACPAC option is selected, additional SqlPackage.exe arguments that will be applied. When SQL query option is selected, additional sqlcmd.exe arguments will be applied.
